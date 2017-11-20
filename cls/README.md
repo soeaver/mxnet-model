@@ -8,7 +8,7 @@ Most of the models are converted from other projects, the main contribution belo
 
 Project links:
 
-[mxnet-model-gallery](https://github.com/dmlc/mxnet-model-gallery)、 [tensorflow slim](https://github.com/tensorflow/models/tree/master/slim)、 [craftGBD](https://github.com/craftGBD/craftGBD)、 [ResNeXt](https://github.com/facebookresearch/ResNeXt)、 [DenseNet](https://github.com/liuzhuang13/DenseNet)、 [wide-residual-networks](https://github.com/szagoruyko/wide-residual-networks)、 [keras deep-learning-models](https://github.com/fchollet/deep-learning-models)、 [ademxapp](https://github.com/itijyou/ademxapp)、 [DPNs](https://github.com/cypw/DPNs)
+[pytorch-classification](https://github.com/soeaver/pytorch-classification)
 
 
 ### Performance on imagenet validation.
@@ -18,7 +18,7 @@ Project links:
  :---:|:---:|:---:|:---:|:---:
  resnet18-priv| 29.11/10.07 | 26.69/8.64 | 27.54/8.98 | 26.23/8.21
 
- - The resnet18-priv, resnext26-32x4d-priv are trained under [pytorch](https://github.com/soeaver/pytorch-classification) by bupt-priv.
+ - The resnet18-priv is trained under [pytorch](https://github.com/soeaver/pytorch-classification) by bupt-priv.
 
 ### Check the performance
 **1. Download the ILSVRC 2012 classification val set [6.3GB](http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_val.tar), and put the extracted images into the directory:**
