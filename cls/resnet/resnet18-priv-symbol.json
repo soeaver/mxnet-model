@@ -1683,11 +1683,11 @@
     }, 
     {
       "op": "Pooling", 
-      "name": "pool5", 
+      "name": "avg_pool", 
       "attr": {
         "cudnn_off": "False", 
         "global_pool": "True", 
-        "kernel": "(8, 8)", 
+        "kernel": "(1, 1)", 
         "pool_type": "avg", 
         "pooling_convention": "full"
       }, 
