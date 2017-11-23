@@ -17,6 +17,13 @@ Project links:
  Network|224/299<br/>(single-crop)|224/299<br/>(12-crop)|320/395<br/>(single-crop)|320/395<br/>(12-crop)
  :---:|:---:|:---:|:---:|:---:
  resnet18-priv| 29.11/10.07 | 26.69/8.64 | 27.54/8.98 | 26.23/8.21
+ resnet101_v2 | 21.89/6.01  |            | 20.44/5.22 | 
+ resnet152_v2 | 20.71/5.42  |            | 19.65/4.75 | 26.23/8.21
+ resnet269_v2 | 19.73/4.99  |            | 18.64/4.33 | 
+ resnext26_32x4d-priv| 25.62/8.12  |            | 24.21/7.22 | 
+ resnext50_32x4d| 22.38/6.31  |            | 21.10/5.52 | 
+ resnext101_32x4d| 21.33/5.80  |            | 19.92/4.97 | 
+ resnext101_64x4d| 20.60/5.41  |            | 19.26/4.63 | 
 
  - The resnet18-priv is trained under [pytorch](https://github.com/soeaver/pytorch-classification) by bupt-priv.
 
