@@ -40,7 +40,7 @@ Project links:
  :---:|:---:|:---:|:---:
  resnet-v2(101/152/269)| ILSVRC2012_val | [102.98, 115.947, 122.772] | [1.0, 1.0, 1.0]
  resnet18-priv, resnext26-32x4d-priv<br/>resnext50-32x4d, resnext101-32x4d<br/>resnext101-64x4d | ILSVRC2012_val | [103.52, 116.28, 123.675] | [57.375, 57.12, 58.395]
-
+ inception-v4 | ILSVRC2012_val | [128.0, 128.0, 128.0] | [128.0, 128.0, 128.0]
 
 **3. then run evaluation_cls.py**
 
