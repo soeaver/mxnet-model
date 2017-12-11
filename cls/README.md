@@ -24,7 +24,7 @@ Project links:
  resnext50_32x4d| 22.38/6.31  |            | 21.10/5.52 | 
  resnext101_32x4d| 21.33/5.80  |            | 19.92/4.97 | 
  resnext101_64x4d| 20.60/5.41  |            | 19.26/4.63 | 
- inception_v1-tf| 29.56/10.01 |            |            |
+ inception_v1_tf| 29.56/10.01 |            |            |
  inception_v3| 21.70/5.75  |            |            |
  inception_v4| 20.03/5.09  |            |            |
  air101| 21.32/5.77 |           |           |
