@@ -8,7 +8,7 @@ Most of the models are converted from other projects, the main contribution belo
 
 Project links:
 
-[pytorch-classification](https://github.com/soeaver/pytorch-classification)、[mxnet-model-gallery](https://github.com/dmlc/mxnet-model-gallery)、 [tensorflow slim](https://github.com/tensorflow/models/tree/master/slim)、 [craftGBD](https://github.com/craftGBD/craftGBD)、 [ResNeXt](https://github.com/facebookresearch/ResNeXt)、 [keras deep-learning-models](https://github.com/fchollet/deep-learning-models)、 [DPNS](https://github.com/cypw/DPNs)
+[pytorch-classification](https://github.com/soeaver/pytorch-classification)、[mxnet-model-gallery](https://github.com/dmlc/mxnet-model-gallery)、 [tensorflow slim](https://github.com/tensorflow/models/tree/master/slim)、 [craftGBD](https://github.com/craftGBD/craftGBD)、 [ResNeXt](https://github.com/facebookresearch/ResNeXt)、 [keras deep-learning-models](https://github.com/fchollet/deep-learning-models)、 [DPNS](https://github.com/cypw/DPNs)、 [Senet](https://github.com/hujie-frank/SENet)
 
 ### Performance on imagenet validation.
 **1. Top-1/5 error of pre-train models in this repository.**
