@@ -28,6 +28,13 @@ Project links:
  inception_v4| 20.03/5.09  |            |            |
  air101| 21.32/5.77 |           |           |
  xception| 20.89/5.48 |           |           |
+ dpn-68-extra| 22.45/6.09 |        | 20.92/5.26 |        |
+ dpn-92-extra| 19.98/5.06 |        | 19.00/4.37 |        |
+ dpn-98| 20.15/5.15 |      | 18.94/4.44 |       |
+ dpn131| 19.93/5.12	|      | 18.62	4.23 |       |
+ dpn107-extra| 19.75/4.94	|        |18.34/4.19 |       |
+ se-resnet50| 22.39/6.37 |         |           |       |
+
 
  - The resnet18-priv, resnext26-32x4d-priv is trained under [pytorch](https://github.com/soeaver/pytorch-classification) by bupt-priv.
  - 224x224(base_size=256) and 320x320(base_size=320) crop size for resnet-v2/resnext, 299x299(base_size=320) and 395x395(base_size=395) crop size for inception.
@@ -45,7 +52,8 @@ Project links:
  resnet18-priv, resnext26-32x4d-priv<br/>resnext50-32x4d, resnext101-32x4d<br/>resnext101-64x4d, air(x) | ILSVRC2012_val | [103.52, 116.28, 123.675] | [57.375, 57.12, 58.395]
  inception-v3 | ILSVRC2015_val | [128.0, 128.0, 128.0] | [128.0, 128.0, 128.0]
  inception-v2, xception<br/>inception-v4 | ILSVRC2012_val | [128.0, 128.0, 128.0] | [128.0, 128.0, 128.0]
-
+ dpn(68/92/98/131/107)	| ILSVRC2012_val	| [104.0, 117.0, 124.0]	| [59.88, 59.88, 59.88]
+ 
 **3. then run evaluation_cls.py**
 
     python evaluation_cls.py
