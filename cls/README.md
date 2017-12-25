@@ -1,6 +1,6 @@
 ## CLS (Classification)
 
-Please install official MXNet(https://github.com/apache/incubator-mxnet) for evaluating and finetuning.
+Please install official MXNet(https://github.com/apache/incubator-mxnet) for evaluating and finetuning. We have verified our model by fine-tuning maskrcnn, statistics about our experiments are recorded in repo [mx-maskrcnn](https://github.com/LeonJWH/mx-maskrcnn).
 
 ### Disclaimer
 
