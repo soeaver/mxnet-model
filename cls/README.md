@@ -1,6 +1,6 @@
 ## CLS (Classification)
 
-Please install official MXNet(https://github.com/apache/incubator-mxnet) for evaluating and finetuning.
+Please install official MXNet(https://github.com/apache/incubator-mxnet) for evaluating and finetuning. We have verified our model by fine-tuning maskrcnn, statistics about our experiments are recorded in repo [mx-maskrcnn](https://github.com/LeonJWH/mx-maskrcnn).
 
 ### Disclaimer
 
@@ -8,7 +8,7 @@ Most of the models are converted from other projects, the main contribution belo
 
 Project links:
 
-[pytorch-classification](https://github.com/soeaver/pytorch-classification)、[mxnet-model-gallery](https://github.com/dmlc/mxnet-model-gallery)、 [tensorflow slim](https://github.com/tensorflow/models/tree/master/slim)、 [craftGBD](https://github.com/craftGBD/craftGBD)、 [ResNeXt](https://github.com/facebookresearch/ResNeXt)、 [keras deep-learning-models](https://github.com/fchollet/deep-learning-models)
+[pytorch-classification](https://github.com/soeaver/pytorch-classification)、[mxnet-model-gallery](https://github.com/dmlc/mxnet-model-gallery)、 [tensorflow slim](https://github.com/tensorflow/models/tree/master/slim)、 [craftGBD](https://github.com/craftGBD/craftGBD)、 [ResNeXt](https://github.com/facebookresearch/ResNeXt)、 [keras deep-learning-models](https://github.com/fchollet/deep-learning-models)、 [DPNS](https://github.com/cypw/DPNs)、 [Senet](https://github.com/hujie-frank/SENet)
 
 ### Performance on imagenet validation.
 **1. Top-1/5 error of pre-train models in this repository.**
@@ -26,8 +26,17 @@ Project links:
  inception_v1_tf| 29.56/10.01 |            |            |
  inception_v3| 21.70/5.75  |            |            |
  inception_v4| 20.03/5.09  |            |            |
- air101| 21.32/5.77 |           |           |
+ inception_resnet_v2 | 19.86/4.83 |     |            |
  xception| 20.89/5.48 |           |           |
+ air101| 21.32/5.77 |           |           |
+ dpn-68-extra| 22.45/6.09 |        | 20.92/5.26 |        |
+ dpn-92-extra| 19.98/5.06 |        | 19.00/4.37 |        |
+ dpn-98| 20.15/5.15 |      | 18.94/4.44 |       |
+ dpn131| 19.93/5.12	|      | 18.62	4.23 |       |
+ dpn107-extra| 19.75/4.94	|        |18.34/4.19 |       |
+ se-resnet50| 22.39/6.37 |         |           |       |
+ se-resnet101| 21.77/5.72 |        |           |       |
+ se-resnet152| 21.35/5.54 |        |           |       |
 
  - The resnet18-priv, resnext26-32x4d-priv is trained under [pytorch](https://github.com/soeaver/pytorch-classification) by bupt-priv.
  - 224x224(base_size=256) and 320x320(base_size=320) crop size for resnet-v2/resnext, 299x299(base_size=320) and 395x395(base_size=395) crop size for inception.
@@ -43,9 +52,12 @@ Project links:
  :---:|:---:|:---:|:---:
  resnet-v2(101/152/269)| ILSVRC2012_val | [102.98, 115.947, 122.772] | [1.0, 1.0, 1.0]
  resnet18-priv, resnext26-32x4d-priv<br/>resnext50-32x4d, resnext101-32x4d<br/>resnext101-64x4d, air(x) | ILSVRC2012_val | [103.52, 116.28, 123.675] | [57.375, 57.12, 58.395]
- inception-v3 | ILSVRC2015_val | [128.0, 128.0, 128.0] | [128.0, 128.0, 128.0]
- inception-v2, xception<br/>inception-v4 | ILSVRC2012_val | [128.0, 128.0, 128.0] | [128.0, 128.0, 128.0]
+ inception-v3 | **ILSVRC2015_val** | [128.0, 128.0, 128.0] | [128.0, 128.0, 128.0]
+ inception-v2, xception<br/>inception-v4, inception_resnet_v2 | ILSVRC2012_val | [128.0, 128.0, 128.0] | [128.0, 128.0, 128.0]
+ dpn(68/92/98/131/107)	| ILSVRC2012_val | [104.0, 117.0, 124.0]	| [59.88, 59.88, 59.88]
+ official senet	| **ILSVRC2015_val** | [104.0, 117.0, 123.0] | [1.0, 1.0, 1.0]
 
 **3. then run evaluation_cls.py**
 
     python evaluation_cls.py
+
