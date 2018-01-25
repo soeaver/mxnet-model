@@ -15,28 +15,33 @@ Project links:
 
  Network|224/299<br/>(single-crop)|224/299<br/>(12-crop)|320/395<br/>(single-crop)|320/395<br/>(12-crop)
  :---:|:---:|:---:|:---:|:---:
- resnet18-priv| 29.11/10.07 | 26.69/8.64 | 27.54/8.98 | 26.23/8.21
- resnet101_v2| 21.89/6.01  |            | 20.44/5.22 | 
- resnet152_v2| 20.71/5.42  |            | 19.65/4.75 | 
- resnet269_v2| 19.73/4.99  |            | 18.64/4.33 | 
+ resnet18-priv       | 29.11/10.07 | 26.69/8.64 | 27.54/8.98 | 26.23/8.21
+ resnet101_v2        | 21.89/6.01  |            | 20.44/5.22 | 
+ resnet152_v2        | 20.71/5.42  |            | 19.65/4.75 | 
+ resnet269_v2        | 19.73/4.99  |            | 18.64/4.33 | 
  resnext26_32x4d-priv| 25.62/8.12  |            | 24.21/7.22 | 
- resnext50_32x4d| 22.38/6.31  |            | 21.10/5.52 | 
- resnext101_32x4d| 21.33/5.80  |            | 19.92/4.97 | 
- resnext101_64x4d| 20.60/5.41  |            | 19.26/4.63 | 
- inception_v1_tf| 29.56/10.01 |            |            |
- inception_v3| 21.70/5.75  |            |            |
- inception_v4| 20.03/5.09  |            |            |
- inception_resnet_v2 | 19.86/4.83 |     |            |
- xception| 20.89/5.48 |           |           |
- air101| 21.32/5.77 |           |           |
- dpn-68-extra| 22.45/6.09 |        | 20.92/5.26 |        |
- dpn-92-extra| 19.98/5.06 |        | 19.00/4.37 |        |
- dpn-98| 20.15/5.15 |      | 18.94/4.44 |       |
- dpn131| 19.93/5.12	|      | 18.62	4.23 |       |
- dpn107-extra| 19.75/4.94	|        |18.34/4.19 |       |
- se-resnet50| 22.39/6.37 |         |           |       |
- se-resnet101| 21.77/5.72 |        |           |       |
- se-resnet152| 21.35/5.54 |        |           |       |
+ resnext50_32x4d     | 22.38/6.31  |            | 21.10/5.52 | 
+ resnext101_32x4d    | 21.33/5.80  |            | 19.92/4.97 | 
+ resnext101_64x4d    | 20.60/5.41  |            | 19.26/4.63 | 
+ inception_v1_tf     | 29.56/10.01 |            |            |
+ inception_v3        | 21.70/5.75  |            |            |
+ inception_v4        | 20.03/5.09  |            |            |
+ inception_resnet_v2 | 19.86/4.83  |            |            |
+ xception            | 20.89/5.48  |            |            |
+ air101              | 21.32/5.77  |            |            |
+ dpn-68-extra        | 22.45/6.09  |            | 20.92/5.26 |
+ dpn-92-extra        | 19.98/5.06  |            | 19.00/4.37 |
+ dpn-98              | 20.15/5.15  |            | 18.94/4.44 |
+ dpn131              | 19.93/5.12  |            | 18.62/4.23 |
+ dpn107-extra        | 19.75/4.94  |            | 18.34/4.19 |
+ se-resnet50         | 22.39/6.37  |            | 20.50/5.23 |
+ se-resnet101        | 21.77/5.72  |            | 19.98/4.78 |
+ se-resnet152        | 21.35/5.54  |            | 19.35/4.69 |
+ se-resnext50-32x4d  | 20.96/5/54  |            | 19.35/4.66 |
+ se-resnext101-32x4d | 19.83/4.95  |            | 12.15/4.08 |
+ se-resnext152-32x4d | 18.86/4.47  |            | 17.39/3.85 |
+ se-inception-v2     | 23.64/7.05  |            | 21.61/5.88 |
+
 
  - The resnet18-priv, resnext26-32x4d-priv is trained under [pytorch](https://github.com/soeaver/pytorch-classification) by bupt-priv.
  - 224x224(base_size=256) and 320x320(base_size=320) crop size for resnet-v2/resnext, 299x299(base_size=320) and 395x395(base_size=395) crop size for inception.
