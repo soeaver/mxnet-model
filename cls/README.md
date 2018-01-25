@@ -37,6 +37,11 @@ Project links:
  se-resnet50| 22.39/6.37 |         |           |       |
  se-resnet101| 21.77/5.72 |        |           |       |
  se-resnet152| 21.35/5.54 |        |           |       |
+ se-resnext50-32x4d| 20.96/5/54 |        | 19.35/4.66 |      |
+ se-resnext101-32x4d| 19.83/4.95 |       | 12.15/4.08 |      |
+ se-resnext152-32x4d| 18.86/4.47 |       | 17.39/3.85 |      |
+ se-inception-v2| 23.64/7.05 |     | 21.61/5.88 |      |
+
 
  - The resnet18-priv, resnext26-32x4d-priv is trained under [pytorch](https://github.com/soeaver/pytorch-classification) by bupt-priv.
  - 224x224(base_size=256) and 320x320(base_size=320) crop size for resnet-v2/resnext, 299x299(base_size=320) and 395x395(base_size=395) crop size for inception.
