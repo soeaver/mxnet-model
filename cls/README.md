@@ -13,7 +13,7 @@ Project links:
 ### Performance on imagenet validation.
 **1. Top-1/5 error of pre-train models in this repository.**
 
- Network|224/299<br/>(single-crop)|320/395<br/>(single-crop)| Download(BaiduCloud)
+ Network|224/299<br/>(single-crop)|320/395<br/>(single-crop)| Download
  :---:|:---:|:---:|:---:
  resnet18-priv       | 29.11/10.07 | 26.23/8.21 | [44.6MB](https://pan.baidu.com/s/1i7cRTXV)(BaiduCloud)
  resnet101_v2        | 21.89/6.01  | 20.44/5.22 | [170.3MB](https://pan.baidu.com/s/1i6wU0lv)(BaiduCloud)
