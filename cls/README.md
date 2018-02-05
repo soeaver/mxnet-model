@@ -4,7 +4,7 @@ Please install official MXNet(https://github.com/apache/incubator-mxnet) for eva
 
 ### Disclaimer
 
-Most of the models are converted from other projects, the main contribution belongs to the original authors.
+Most of the pre-train models are converted from other projects, the main contribution belongs to the original authors.
 
 Project links:
 
