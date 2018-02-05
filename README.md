@@ -39,5 +39,4 @@ Network|224/299<br/>(single-crop)|320/395<br/>(single-crop)| Download
  se-resnext50-32x4d  | 20.96/5/54  | 19.35/4.66 | [105.4MB](https://pan.baidu.com/s/1qZ6P9DE)(BaiduCloud)
  se-inception-v2     | 23.64/7.05  | 21.61/5.88 | [45.6MB](https://pan.baidu.com/s/1htqkSh2)(BaiduCloud)
 
- - The resnet18-priv, resnext26-32x4d-priv is trained under [pytorch](https://github.com/soeaver/pytorch-classification) by bupt-priv.
  - 224x224(base_size=256) and 320x320(base_size=320) crop size for resnet-v2/resnext, 299x299(base_size=320) and 395x395(base_size=395) crop size for inception.
